@@ -1,0 +1,26 @@
+Entrada 
+	Valor da compra
+	Tipo de Pagamento
+Processamento
+	Desconto no pagamento com boleto
+	Juros no cartão de credito em compras parceladas
+Saída
+	Valor da Compra.
+
+Fluxo>
+
+Digite o valor da compra:
+500
+
+Selecione um método de pagamento:
+1 - Boleto 
+	Exibir data, Valor com desconto, data de vencimento e o codigo de barras.
+2 - Cartão
+	1 - Crédito
+		Selecione a quantidade de parcelas:
+		0 - A vista
+		1 - 1 x - Juros de 5%
+		2 - 2 x - Juros de 5%
+		3 - 7 x - Juros de 8%
+
+	2 - Débito
